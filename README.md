@@ -158,7 +158,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
 # 2. Clone repository
-git clone https://github.com/yourusername/SKYFORGe-Premium-Dashboard.git
+git clone https://github.com/mryuvraj1/SKYFORGe-Premium-Dashboard.git
 cd SKYFORGe-Premium-Dashboard
 
 # 3. Create .env files
@@ -199,7 +199,7 @@ sudo systemctl enable mongod
 sudo npm install -g pm2
 
 # 5. Clone and setup
-git clone https://github.com/yourusername/SKYFORGe-Premium-Dashboard.git
+git clone https://github.com/mryuvraj1/SKYFORGe-Premium-Dashboard.git
 cd SKYFORGe-Premium-Dashboard
 
 # 6. Setup backend
@@ -251,7 +251,7 @@ sudo systemctl enable mongod
 sudo npm install -g pm2
 
 # 5. Clone and setup
-git clone https://github.com/yourusername/SKYFORGe-Premium-Dashboard.git
+git clone https://github.com/mryuvraj1/SKYFORGe-Premium-Dashboard.git
 cd SKYFORGe-Premium-Dashboard
 
 # 6. Setup backend
