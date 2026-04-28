@@ -179,8 +179,10 @@ docker-compose logs -f
 
 # 8. Stop services
 docker-compose down
+```
 
 # Manual Installation (Ubuntu/debian)
+```bash
 # 1. Update system
 sudo apt update && sudo apt upgrade -y
 
@@ -221,8 +223,10 @@ sudo nano /etc/nginx/sites-available/skyforge
 sudo ln -s /etc/nginx/sites-available/skyforge /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
+```
 
 # Manual Installation (Centos/RHEL/Rocky/Alma)
+```
 # 1. Update system
 sudo dnf update -y
 
@@ -267,3 +271,4 @@ npm run build
 sudo dnf install -y nginx
 sudo systemctl start nginx
 sudo systemctl enable nginx
+``` 
